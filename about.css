@@ -1,0 +1,16 @@
+body {
+    background-image: url("image/l.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul{
+    font-weight: bolder; font-family: sans-serif;
+}
+#img1{
+    height: 50; width: 60px;
+}
+
+body,html{
+    height: 100%;
+}

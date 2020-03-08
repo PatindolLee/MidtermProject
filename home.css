@@ -1,0 +1,67 @@
+body {
+    background-image: url("image/a.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+body,html{
+    height: 100%;
+}
+
+ul{
+    font-weight: bolder; font-family: sans-serif;
+}
+#img{
+    height: 50%; width: 50%; float: right;
+}
+#img1{
+    height: 50; width: 60px;
+}   
+header.masthead {
+    text-align: center;
+    color: white;
+  }
+  
+  header.masthead .intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  
+/*   header.masthead .intro-text .intro-lead-in {
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+    margin-bottom: 21px;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  } */
+/*   
+  header.masthead .intro-text .intro-heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  } */
+  
+  @media (min-width: 768px) {
+    header.masthead .intro-text {
+      padding-top: 500px;
+     
+    }
+}
+    header.masthead .intro-text .intro-lead-in {
+      font-size: 40px;
+      font-style: italic;
+      line-height: 40px;
+      margin-bottom: 25px;
+      font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    }
+    header.masthead .intro-text .intro-heading {
+      font-size: 75px;
+      font-weight: 700;
+      line-height: 75px;
+      margin-bottom: 50px;
+      font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    }
+  }
