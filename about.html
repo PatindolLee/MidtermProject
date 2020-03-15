@@ -6,18 +6,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ABOUT</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 <body>
   <section>
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent" id="mainNav">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <img id= "img1" src="image/c.png" alt="">
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <img id= "img1" src="image/leevi.png" alt="">
+          
           <ul class="navbar-nav mr-auto">
 
             <li class="nav-item">
@@ -46,7 +48,17 @@
 
     </div>
   </section>
+  <header class="py-5 bg-image-full" style="background-image: url('image/bg2.jpg');">
+    <img class="img-fluid d-block mx-auto" src="image/leevi.png" alt="">
+  </header>
   
+  <section class="detais">
+    <div class="container">
+      <h1>Hello viewer,</h1>
+      <p class="lead">This is my personal webpage. I've created this because I want to connect with other students. I hope we can get along someday.</p>
+    </div>
+  </section>
+
 <!--  -->
 
 <!--  --> 
@@ -55,6 +67,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
 </body>
 
-<footer></footer>
+<footer class="footer text-center">
+  <div class="container">
+    <p class="text-muted small mb-0">Copyright &copy; 2020</p>
+  </div>
+</footer>
 
 </html>
